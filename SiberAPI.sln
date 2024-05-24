@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{41592CC9-A8DB-46BC-84A1-050CFF38FF79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiberAPI.Domain", "Core\SiberAPI.Domain\SiberAPI.Domain.csproj", "{E3F29FD3-09A3-43D3-8720-32E21DB45E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiberAPI.Application", "Core\SiberAPI.Application\SiberAPI.Application.csproj", "{F1BFE654-373F-4352-AAB2-D742C19A2A0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9462DBBE-573D-4F83-9EDA-7AA712B94013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiberAPI.Infrastructure", "Infrastructure\SiberAPI.Infrastructure\SiberAPI.Infrastructure.csproj", "{371301DF-B53C-4F92-9235-3E684C0EB6ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiberAPI.Persistance", "Infrastructure\SiberAPI.Persistance\SiberAPI.Persistance.csproj", "{0B866A14-AB88-485F-A271-58392EB1BCE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{2F130505-CD01-4BD5-8AC8-3AFDC14855D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiberAPI.API", "Presentation\SiberAPI.API\SiberAPI.API.csproj", "{CEB44B0D-84A9-40B0-9DC1-2221469E458D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3F29FD3-09A3-43D3-8720-32E21DB45E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F29FD3-09A3-43D3-8720-32E21DB45E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F29FD3-09A3-43D3-8720-32E21DB45E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F29FD3-09A3-43D3-8720-32E21DB45E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1BFE654-373F-4352-AAB2-D742C19A2A0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1BFE654-373F-4352-AAB2-D742C19A2A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1BFE654-373F-4352-AAB2-D742C19A2A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1BFE654-373F-4352-AAB2-D742C19A2A0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371301DF-B53C-4F92-9235-3E684C0EB6ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371301DF-B53C-4F92-9235-3E684C0EB6ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371301DF-B53C-4F92-9235-3E684C0EB6ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371301DF-B53C-4F92-9235-3E684C0EB6ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B866A14-AB88-485F-A271-58392EB1BCE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B866A14-AB88-485F-A271-58392EB1BCE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B866A14-AB88-485F-A271-58392EB1BCE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B866A14-AB88-485F-A271-58392EB1BCE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEB44B0D-84A9-40B0-9DC1-2221469E458D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB44B0D-84A9-40B0-9DC1-2221469E458D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB44B0D-84A9-40B0-9DC1-2221469E458D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB44B0D-84A9-40B0-9DC1-2221469E458D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3F29FD3-09A3-43D3-8720-32E21DB45E39} = {41592CC9-A8DB-46BC-84A1-050CFF38FF79}
+		{F1BFE654-373F-4352-AAB2-D742C19A2A0F} = {41592CC9-A8DB-46BC-84A1-050CFF38FF79}
+		{371301DF-B53C-4F92-9235-3E684C0EB6ED} = {9462DBBE-573D-4F83-9EDA-7AA712B94013}
+		{0B866A14-AB88-485F-A271-58392EB1BCE4} = {9462DBBE-573D-4F83-9EDA-7AA712B94013}
+		{CEB44B0D-84A9-40B0-9DC1-2221469E458D} = {2F130505-CD01-4BD5-8AC8-3AFDC14855D8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDC5AA9B-293A-4B2E-B7C9-BA33A2148257}
+	EndGlobalSection
+EndGlobal
